@@ -1,0 +1,27 @@
+{
+  "name": "building boilerplate",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Abel Mejia"
+  ],
+  "license": "ISC",
+  "moduleType": [],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize.styl": "^3.0.3",
+    "modernizr": "^3.3.1",
+    "angular": "^1.5.1",
+    "angular-route": "^1.5.1",
+    "bootstrap": "^3.3.6",
+    "normalize-css": "^3.0.3"
+  }
+}

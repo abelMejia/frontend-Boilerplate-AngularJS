@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+html(
+	lang="en"
+	ng-app='app'
+)
+head
+	base(href="/") 
+	meta(charset="UTF-8")
+	title Boilerplate Angular
+	link(
+		rel='stylesheet'
+		href='css/main.css'
+	)
+	link(
+		rel='stylesheet'
+		href='css/vendor/normalize/normalize.css'
+	)
+	link(
+		rel='stylesheet'
+		href='css/vendor/bootstrap/bootstrap.min.css'
+	)
+	
+body(ng-controller='mainController')
+	ul(class="nav nav-pills")
+		li
+			a(href='/') {{home}}
+
+		li
+			a(href='/#/services') {{services}}
+
+	div(ng-view) 
+
+	script(src='js/vendor/jquery/jquery.min.js')
+	script(src='js/vendor/bootstrap/bootstrap.min.js')
+	script(src='js/vendor/modernizr/Modernizr.js')
+	script(src='js/vendor/angular/angular.min.js')
+	script(src='js/vendor/angular-route/angular-route.min.js')
+	script(src='components/directives/hello/hello.js')
+	script(src='components/factory/factory.js')
+	script(src='components/controllers/mainController.js')
+	script(src='components/main.js')
+	script(src='app/app.js')
+	
