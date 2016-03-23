@@ -11,6 +11,8 @@
 + `$ cd frontend-Boilerplate-AngularJS`
 + `$ npm install`
 + `$ npm install -g gulp`
++ `$ npm install -g bower`
++ `$ bower install`
 
 ## Deployment
 Run `$ gulp` for the production ready code in deploy.
