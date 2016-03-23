@@ -11,6 +11,7 @@
 + cd frontend-Boilerplate-AngularJS
 + $ npm install
 + $ npm install -g gulp
-+ $ gulp
 
 ## Deployment
+Run $ gulp for the production ready code in deploy.
+
