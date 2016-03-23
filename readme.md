@@ -8,7 +8,7 @@
 ## Setup
 
 + `$ git clone https://github.com/abelMejia/frontend-Boilerplate-AngularJS.git`
-+ `cd frontend-Boilerplate-AngularJS`
++ `$ cd frontend-Boilerplate-AngularJS`
 + `$ npm install`
 + `$ npm install -g gulp`
 
