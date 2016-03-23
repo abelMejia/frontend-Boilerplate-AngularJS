@@ -1,3 +1,5 @@
+## Package Manager
++ npm and bower
 
 ## Package
 
