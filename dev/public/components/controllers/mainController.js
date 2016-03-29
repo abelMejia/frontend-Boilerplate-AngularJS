@@ -8,9 +8,11 @@ function mainController($scope, testFactory) {
 
 	this.services = 'Directiva'
 
-	//factory
-	var say = testFactory.sayHello('Hello')
-	console.log(say)
+	//FACTORY
+	testFactory
+	.sayHello()
+	.then(function(data) { console.log(data) })
+	.catch(function(err) { console.log(err) })
 }
 
 mainController.$inject = ['$scope', 'testFactory']

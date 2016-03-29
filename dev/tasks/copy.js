@@ -15,5 +15,10 @@ module.exports = function ($) {
 			$.deploy.dir	
 		)
 
+		copy(
+			$.dev.dir + '/**/**/*.json', 
+			$.deploy.dir	
+		)
+
 	})
 }

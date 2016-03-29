@@ -15,7 +15,7 @@ function config($routeProvider, $locationProvider) {
         templateUrl: 'views/services/index.html'
     })
 
-    $locationProvider.html5Mode(true);
+    //$locationProvider.html5Mode(true);
 } 
 
 config.$inject = ['$routeProvider', '$locationProvider']
